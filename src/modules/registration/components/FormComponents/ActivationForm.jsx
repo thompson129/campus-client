@@ -37,15 +37,6 @@ function ActivationForm() {
       console.error("Activation error:", error);
       setError(error.response?.data?.message || "An error occurred during activation. Please try again.");
     }
-
-    // console.log(
-    //   "Personal Email:",
-    //   personal_email,
-    //   "Campus Email:",
-    //   campus_email,
-    //   "Password:",
-    //   password
-    // );
   };
 
   return (
